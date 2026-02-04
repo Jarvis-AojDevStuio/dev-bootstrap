@@ -1,0 +1,15 @@
+name: repo-health
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  structure:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check repo structure
+        shell: pwsh
+        run: |
+          ./scripts/check-structure.ps1
