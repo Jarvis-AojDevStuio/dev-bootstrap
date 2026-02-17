@@ -80,6 +80,10 @@ irm https://raw.githubusercontent.com/Jarvis-AojDevStuio/dev-bootstrap/main/boot
 curl -fsSL https://raw.githubusercontent.com/Jarvis-AojDevStuio/dev-bootstrap/main/macos/bootstrap.sh | bash
 ```
 
+macOS extras included:
+- **lazygit** (git TUI)
+- **yazi** (terminal file manager) — installed via Homebrew per https://yazi-rs.github.io/docs/installation/#homebrew
+
 One command. Paste it in your terminal. Walk away. Come back to a configured development machine.
 
 <p align="center">

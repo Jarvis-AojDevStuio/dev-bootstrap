@@ -81,6 +81,13 @@ log "Base tools (git, curl)"
 brew list git >/dev/null 2>&1 || brew install git
 brew list curl >/dev/null 2>&1 || brew install curl
 
+log "Terminal UX (lazygit, yazi)"
+# lazygit: https://github.com/jesseduffield/lazygit
+brew list lazygit >/dev/null 2>&1 || brew install lazygit
+
+# yazi: https://yazi-rs.github.io/docs/installation/#homebrew
+brew list yazi >/dev/null 2>&1 || brew install yazi
+
 log "Node via fnm"
 brew list fnm >/dev/null 2>&1 || brew install fnm
 
