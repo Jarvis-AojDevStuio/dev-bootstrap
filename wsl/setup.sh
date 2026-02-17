@@ -19,6 +19,12 @@ fi
 if command -v apt-get >/dev/null 2>&1; then
   sudo apt-get update -y
   sudo apt-get install -y git curl ca-certificates
+
+  echo "Installing Chromium (WSL)"
+  # User-requested install command:
+  #   sudo apt install -y chromium-browser
+  # Note: On some Ubuntu versions this may be a snap shim. We still run it as requested.
+  sudo apt install -y chromium-browser
 fi
 
 # Claude Code install for Linux (per official docs):

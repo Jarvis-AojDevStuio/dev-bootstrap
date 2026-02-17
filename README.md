@@ -104,7 +104,7 @@ One command. Paste it in your terminal. Walk away. Come back to a configured dev
 | **Bun** | Latest | Fast JS runtime | [Oven-sh.Bun](https://bun.sh) via winget |
 | **Claude Code** | Latest | Anthropic AI CLI | [@anthropic-ai/claude-code](https://www.npmjs.com/package/@anthropic-ai/claude-code) via npm |
 | **Codex CLI** | Latest | OpenAI code assistant | [openai.com](https://developers.openai.com/codex/cli) |
-| **WSL2** | Latest | Linux on Windows | [Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install) *(optional)* |
+| **WSL2** | Latest | Linux on Windows | [Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install) *(optional; installs Chromium inside WSL via apt)* |
 
 > Every tool is installed from its **official canonical source** via winget or npm — avoiding `irm|iex` patterns that corporate proxies (Zscaler, etc.) often block. No third-party mirrors. No mystery binaries. All sources documented inline in `bootstrap.ps1`.
 
